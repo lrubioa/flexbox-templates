@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Template 2</title>
+
+    <style>
+        .container1{
+            display: flex;
+            background-color: darkgray;
+            height: 735px;
+            width: 15%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .container2{
+            display: flex;
+            background-color: darkslategray;
+            height: 150px;
+            width: 85%;
+            margin-top: -735px;
+            margin-left: 15%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .container3{
+            display: flex;
+            background-color: darkcyan;
+            height: 435px;
+            width: 85%;
+            margin-left: 15%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .container3 > div{
+            background-color: cadetblue;
+            margin: 20px;
+            color: white;
+        }
+
+        .container4{
+            display: flex;
+            background-color: darkturquoise;
+            height: 150px;
+            width: 85%;
+            margin-left: 15%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container1">Nav</div>
+    <div class="container2">Header</div>
+    <div class="container3">
+        <div style="flex-grow: 1">Article</div>
+        <div style="flex-grow: 1">Aside</div>
+    </div>
+    <div class="container4">Footer</div>
+</body>
+</html>
